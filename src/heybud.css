@@ -1,0 +1,64 @@
+.container{
+    max-width: 955px;
+    
+    margin: auto;
+    color:white;
+    height: 60vh;
+    background: rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+    
+}
+
+.message{
+
+    background: rgba(0,0, 40, 0.5);
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-top: 8px;
+    padding:10px;
+    width: 24%;
+}
+
+.right{
+    float:right;
+    clear:both;
+}
+
+
+.left{
+    float:left;
+    clear:both;
+}
+
+.btn{
+background:rgba(0, 0, 90, 0.25);
+border-radius: 2px;
+height: 40px;
+cursor: pointer;
+border: 2px solid rebeccapurple;
+font-weight: 600;
+font-family: sans-serif;
+width: 60px;
+}
+
+#send-container{
+    text-align: center;
+max-width: 985px;
+display: block;
+margin: auto;
+
+}
+
+#messageInp{
+    width:91%;
+    border: 2px solid rebeccapurple;
+    border-radius: 6px;
+    height: 34px;
+
+}
+
+input[type="text"]{
+    background: rgba(0,0, 0, 0.5);
+}
